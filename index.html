@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="images/choco.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title> Pão de Mel </title>
+</head>
+<body>
+    <div>
+        <header>
+            <a class="logo" href="/">
+                <img src="./images/logo.jpeg">
+            </a>
+            <div class="a">
+                <ul> <b>
+                    <li> 
+                        <button type="button" onclick="myAbout()"> + </button> </li>Sobre Nós 
+                        
+                        <div id="about">
+                            Somos uma empresa muito séria, <br> atuamos no ramo de produção 
+                            de pães de mel.
+                        </div>
+
+                        <br>
+                    
+                    <li> 
+                        <button type="button" onclick="myAsks()"> + </button> </li>Perguntas Frequentes 
+                        
+                        <div id="asks">
+                            " - Qual o tamanho do pão de mel? " <br> <br> 
+                            - Cerca de 10cm³. 
+                        </div>
+                        
+                        <br>
+
+                    <li>
+                        <button id="" type="button" onclick="myFeedback()"> + </button> </li>Feedback de Clientes
+                        
+                        <div id="feedback">
+                            " - Muito bom, incomparável !!" <br> <br>
+                            " - O melhor que "tá" teno !!!"
+                        </div>
+                        <br>  
+                    
+                    <li> 
+                        <button type="button" onclick="myContact()"> + </button> </li>Contato
+                        
+                        <div id="contact">
+                            (63) 99200-3544 <br>
+                            
+                        </div>
+                        <br>
+                    <li>
+                        <button id="funcTop" type="button" onclick="myFunc()"> + </button> </li>Horário de Funcionamento
+                        
+                        <div id="func">
+                            Segunda à Sexta <br>
+                            09:00hrs - 17:00hrs  <br>
+                        </div>
+                        <br>  
+                        
+                    </b> <br>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div class="formContainer">
+                <h2 class="mb"> <br> FAÇA JÁ SEU PEDIDO <br>  <br>  O  PÃO DE MEL MAIS GOSTOSO DO TOCANTINS </h2>
+                <br> <br>
+                <img class="foto" src="./images/2.jpeg">
+
+            </div>
+        </section>
+
+        <footer>
+            <!--img class="picture" src="images/sobreNos.jpeg"-->
+        </footer>
+    </div>
+
+<script>
+    function myAbout() {
+      var x = document.getElementById("about");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    function myAsks() {
+      var x = document.getElementById("asks");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    function myFeedback() {
+      var x = document.getElementById("feedback");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    function myContact() {
+      var x = document.getElementById("contact");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    function myFunc() {
+      var x = document.getElementById("func");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+
+</script>
+
+</body>
+</html>
