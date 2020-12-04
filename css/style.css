@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 46, 41);
+}
+
+body {
+    font-family: 'Erica One', cursive;
+    padding: 0;
+    font-size: 1.2rem;
+    height: 200px;   
+
+}
+
+div {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+header {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    border: 3px double #f4c521;
+}
+
+.formContainer {
+    text-align: center;
+    max-width: 1000px;
+    color: white;
+    margin: auto;
+}
+
+li {
+    padding: 21px;
+    margin: auto;
+    display: inline-block;
+    color: black;
+}
+
+ul {
+    font-size: 30px;
+}
+
+img {
+    margin: auto;
+    width: 150px;
+    display: inline-block;
+    
+}
+
+section {
+    background-color: black;
+}
+
+h2 {
+    background-color: black;
+}
+
+.picture {
+    display: inline;
+}
+
+.foto {
+    width: 50%;
+}
+
+#more {
+    display: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    color: #f4c521;
+    font-size: 30px;
+    padding: 0;
+
+}
+
+#about {
+    max-width: 1200px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    background-color: rgb(55, 46, 41);
+
+}
+
+#asks {
+    max-width: 1200px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    background-color: rgb(55, 46, 41);
+}
+
+#feedback {
+    max-width: 1200px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    background-color: rgb(55, 46, 41);
+}
+
+#contact {
+    max-width: 1200px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    background-color: rgb(55, 46, 41);
+}
+
+#func {
+    max-width: 1200px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    background-color: rgb(55, 46, 41);
+}
